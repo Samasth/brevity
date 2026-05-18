@@ -1,18 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#161b22"/>
       <stop offset="100%" stop-color="#0e1117"/>
     </linearGradient>
+    <linearGradient id="spark" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="rgba(163,230,53,0)"/>
+      <stop offset="100%" stop-color="rgba(163,230,53,0.45)"/>
+    </linearGradient>
   </defs>
-  <rect width="256" height="256" rx="56" ry="56" fill="url(#bg)"/>
-  <text x="50%" y="56%"
+
+  <!-- Card -->
+  <rect width="320" height="320" rx="68" ry="68" fill="url(#bg)"/>
+
+  <!-- Soft chart-spark fill behind the letter -->
+  <path d="M 56,230 L 90,210 L 124,224 L 158,180 L 192,196 L 226,140 L 260,158 L 264,158 L 264,260 L 56,260 Z"
+        fill="url(#spark)"/>
+  <path d="M 56,230 L 90,210 L 124,224 L 158,180 L 192,196 L 226,140 L 260,158"
+        stroke="#a3e635" stroke-width="3" fill="none"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- Wordmark "B." centered -->
+  <text x="50%" y="51%"
         text-anchor="middle"
         dominant-baseline="middle"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
         font-weight="800"
-        font-size="160"
-        letter-spacing="-6"
+        font-size="190"
+        letter-spacing="-8"
         fill="#e6edf3">B</text>
-  <circle cx="183" cy="187" r="14" fill="#a3e635"/>
+  <circle cx="226" cy="218" r="16" fill="#a3e635"/>
 </svg>
