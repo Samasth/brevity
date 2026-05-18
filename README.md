@@ -1,4 +1,13 @@
-# Brevity
+<p align="center">
+  <img src="assets/banner.svg" alt="Brevity — stock analytics, distilled." width="100%"/>
+</p>
+
+<p align="center">
+  <a href="#quick-start"><img alt="Python" src="https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white&style=flat-square"></a>
+  <a href="#data-sources"><img alt="Free" src="https://img.shields.io/badge/data-free%20%26%20legal-a3e635?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square"></a>
+  <a href="https://streamlit.io/"><img alt="Streamlit" src="https://img.shields.io/badge/built%20with-streamlit-FF4B4B?logo=streamlit&logoColor=white&style=flat-square"></a>
+</p>
 
 A free, legal, self-hosted stock-analytics dashboard built on **SEC EDGAR**, **Financial Modeling Prep**, **Finnhub**, **Twelve Data**, and (optionally) **Polygon / Tradier** for options data. No scraping, no TOS-gray sources — every data feed is an official API with explicit free-tier permission or US government public data.
 

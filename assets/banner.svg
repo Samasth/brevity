@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0e1117"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(163,230,53,0.35)"/>
+      <stop offset="100%" stop-color="rgba(163,230,53,0)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+
+  <!-- Subtle chart line motif on the right side -->
+  <path d="M 760,260 L 820,230 L 880,240 L 940,200 L 1000,210 L 1060,160 L 1120,170 L 1180,110 L 1240,90"
+        stroke="#a3e635" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.85"/>
+  <path d="M 760,260 L 820,230 L 880,240 L 940,200 L 1000,210 L 1060,160 L 1120,170 L 1180,110 L 1240,90 L 1240,300 L 760,300 Z"
+        fill="url(#chart)"/>
+
+  <!-- Wordmark + lime dot -->
+  <text x="80" y="170"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="700"
+        font-size="120"
+        letter-spacing="-4"
+        fill="#e6edf3">Brevity</text>
+  <circle cx="558" cy="170" r="14" fill="#a3e635"/>
+
+  <!-- Tagline -->
+  <text x="84" y="225"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-weight="400"
+        font-size="26"
+        letter-spacing="0.5"
+        fill="#8b949e">Stock analytics, distilled.</text>
+
+  <!-- Small source-badge strip beneath the tagline -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+     font-size="13" font-weight="600" fill="#a3e635">
+    <rect x="84" y="248" width="86" height="26" rx="13" fill="rgba(163,230,53,0.15)"/>
+    <text x="127" y="265" text-anchor="middle">SEC EDGAR</text>
+
+    <rect x="178" y="248" width="56" height="26" rx="13" fill="rgba(163,230,53,0.15)"/>
+    <text x="206" y="265" text-anchor="middle">FMP</text>
+
+    <rect x="242" y="248" width="74" height="26" rx="13" fill="rgba(163,230,53,0.15)"/>
+    <text x="279" y="265" text-anchor="middle">Finnhub</text>
+
+    <rect x="324" y="248" width="102" height="26" rx="13" fill="rgba(163,230,53,0.15)"/>
+    <text x="375" y="265" text-anchor="middle">Twelve Data</text>
+
+    <rect x="434" y="248" width="116" height="26" rx="13" fill="rgba(163,230,53,0.15)"/>
+    <text x="492" y="265" text-anchor="middle">Alpha Vantage</text>
+  </g>
+</svg>
